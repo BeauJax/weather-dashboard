@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Weather Dashbard</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div id="header" class="jumbotron">
+        <h1 id="heading" class="heading-display">Weather Dashboard</h1>
+    </div>
+
+    <!--Content -->
+    <div id="content" class="container">
+        <div class="row">
+            <div id="left" class="col-md-3">
+                <form>
+                    <label for="city-search">Search for a City:</label>
+                    <div class="row-form">
+                        <input id="city-search" class="form" name="city" value="Enter City"></input>
+                        <button id="search-btn" class="btn btn-primary" type="submit-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                </form>
+                <div id="search-error"></div>
+                <!-- city search history -->
+                <ul id="city-history" class="list-group mt-4"></ul>
+                <!-- clear history button -->
+                <a id="clear-history" href="#"></a>    
+            </div>
+
+            <!-- Current Weather/Five Day Forcast -->
+            <div id="main-right" class="col-md-9 pt-4">
+                <!-- Current weather displayed on top -->
+                <div id="current-weather" class="border rounded"></div>
+                <!-- Five day forecast below the current weather -->
+                <div id="five-day-forecast" class="mt-5"></div>
+            </div>
+        </div>
+    </div>
+ <!--bootstrap js, font awesome js, jquery, moment js and my js -->
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+ integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+ crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+ crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/1d37754851.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="./assets/script.js"></script>
+
+</body>
+</html>

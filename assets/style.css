@@ -1,0 +1,56 @@
+
+#header {
+    background-size: cover;
+    background-position-y: 40%;
+    color: azure;
+    background-color: #76317A;
+    position: relative !important;
+}
+
+#header h1 {
+    font-size: 200%;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Jumbotron styling */
+.jumbotron {
+    padding: 16px;
+    border-radius: 0;
+}
+
+.jumbotron {
+    padding: 16px;
+    border-radius: 0;
+}
+
+/* City Search Styling */
+#city-history{
+    width:80%;
+}
+
+/* fontawesome - magnifying glass icon */
+#search-btn-icon{
+    width:15px;
+    display:inline-block;
+}
+
+/*Current weather styling */
+#current-weather {
+    padding-left: 15px;
+}
+
+#clear-history{
+    color: #aaa zure;;
+    text-decoration: none;
+    font-size:.75%;
+    margin: .5em 0em 0em .5em;
+}
+
+.weather-card{
+    width: 10px;
+    background-color: #aa02d8;
+    color: white;
+    text-align: center;
+}
